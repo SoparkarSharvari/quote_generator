@@ -1,0 +1,88 @@
+body{
+	
+	background-color: hsl(218, 23%, 16%);
+	max-height: 300px;
+	min-width:140px;
+	max-width:375px;
+
+}
+
+#box_Display{
+	
+	background-color: hsl(217, 19%, 24%);
+	height: 275px;
+	width: 650px;
+	margin-top:137px;
+	margin-left:340px;
+	text-align: center;
+	border-radius: 25px;
+	padding: 30px; 
+	}
+#output{
+	margin: 15%;
+	font-size: 28px;
+	text-align: center;
+	color: white;
+}
+
+
+.head{
+	
+	color: hsl(150, 100%, 66%);
+	font-size: 15px;
+	font-family: all;
+	text-align: center;
+	font-weight: 400;
+	position: absolute;
+  	top:20%;
+  	right: 47.5%;
+
+}
+#line {
+	  background:url(file:///Users/sharvarisoparkar/Downloads/pattern-divider-mobile.svg);
+	 position: absolute;
+  	
+  	right: 39.25%;
+  	width: 20%;
+  	height: 1px;
+  
+  position: fixed;
+  top:50%;
+  padding: 7.55px;
+  opacity: 0.5;
+  
+	}
+
+.button{
+	
+	background-color: hsl(150, 100%, 66%);
+	border-radius: 50%;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+    display: inline-block;
+    margin-bottom: 18%;
+    margin: 0;
+  	position: absolute;
+  	top:55%;
+  	right: 48.5%;
+  	
+}
+.glow_button::before: {
+	color: hsl(193, 38%, 86%);
+}
+.glow_button:hover{
+	
+	
+}
+span.icon{
+	
+	background: url(file:///Users/sharvarisoparkar/Downloads/icon-dice.svg) no-repeat top left;
+    background-size: contain;
+    background-color: hsl(150, 100%, 66%);
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+}
+
